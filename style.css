@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #c2bf15;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #000b15;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e4bc2a;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #0a0c0e;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.skills ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.skills li {
+    background: #cbd509;
+    color: white;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.experience {
+    margin-top: 15px;
+}
+
+.experience div {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #000000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact p {
+    margin: 8px 0;
+}
+
+footer {
+    background: #9cb014;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
